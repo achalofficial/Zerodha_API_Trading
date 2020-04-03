@@ -20,7 +20,7 @@
     }
 
   </style>
-  <title>Book List</title>
+  <title>API Trading</title>
 </head>
 <body>
   <div class="container">
@@ -33,7 +33,7 @@
       </div>
       <div>
         <label for="lots">Lot Size</label>
-        <input type="floa" class="u-full-width" id="lots">
+        <input type="number" step="0.01" class="u-full-width" id="lots">
       </div>
       <div class="u-full-width">
         <label for="typeOftrade">Type of Trade</label>
@@ -49,9 +49,10 @@
     <table class="u-full-width">
       <thead>
         <tr>
-          <th>Title</th>
-          <th>Author</th>
-          <th>ISBN</th>
+          <th>Instrument</th>
+          <th>Lot Size</th>
+          <th>Put / Call</th>
+          <th>Close Trade</th>
           <th></th>
         </tr>
       </thead>
